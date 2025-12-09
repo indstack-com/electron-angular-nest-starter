@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "set ELECTRON_DEV=true&& electron .",
+    "dev:debug": "set ELECTRON_DEV=true&& set NODE_ENV=development&& electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.0.1"
+  }
+}
